@@ -6,7 +6,7 @@ const app = express();
 
 // Use environment variables
 const PORT = process.env.PORT || 3000;
-const MESSAGE = process.env.MESSAGE || "Hello Vicky!";
+const MESSAGE = process.env.MESSAGE || "Hello bunny!";
 
 // Basic route
 app.get('/', (req, res) => {
